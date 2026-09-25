@@ -4,17 +4,25 @@ export {
   type CreateEmojiDataCacheOptions,
   createEmojiDataCache,
 } from "./data/emoji-data-cache";
+export {
+  type GetEmojiDetailsOptions,
+  getEmojiDetails,
+} from "./data/get-emoji-details";
 export { useActiveEmoji, useSkinTone } from "./hooks";
+export {
+  type UseEmojiDetailsOptions,
+  useEmojiDetails,
+} from "./hooks/use-emoji-details";
 export type {
   Category,
   Emoji,
-  EmojibaseEmoji,
   EmojiData,
   EmojiDataCache,
   EmojiDataCategory,
   EmojiDataEmoji,
   EmojiDataResolver,
   EmojiDataResolverOptions,
+  EmojiDetails,
   EmojiPickerActiveEmojiProps,
   EmojiPickerEmptyProps,
   EmojiPickerListCategoryHeaderProps,
